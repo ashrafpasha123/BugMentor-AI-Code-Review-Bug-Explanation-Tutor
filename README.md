@@ -1,2 +1,20 @@
-# BugMentor-AI-Code-Review-Bug-Explanation-Tutor
-.BugMentor is an AI-powered tool that explains code bugs in simple language. Paste code and get clear insights on what's wrong, why it happened, and how to fix it—just like a mentor. Perfect for learners, junior devs, and interview prep. Powered by GPT-4.
+# 🐞 BugMentor
+
+AI-powered tool that explains bugs in code in natural language.
+
+## Features
+- Paste code and get explanations
+- Shows what's wrong, why, and how to fix it
+- Ideal for learners, juniors, and interviews
+
+## Tech Stack
+- FastAPI, OpenAI GPT-4, React (planned)
+
+## Setup
+1. Add your OpenAI API key in `.env`
+2. Run the backend using Uvicorn
+
+```bash
+pip install fastapi uvicorn openai python-dotenv
+uvicorn backend.main:app --reload
+```
